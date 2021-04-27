@@ -1,0 +1,1 @@
+grep -v "^#" your_file | grep -v "^$"
