@@ -1,1 +1,5 @@
 grep -v "^#" your_file | grep -v "^$"
+
+
+Delete blank lines in file.txt:
+sed '/^$/d' file.txt
